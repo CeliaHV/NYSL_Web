@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Home - Northside Youth Soccer League</title>
+        <link rel="icon" href="img/logo.png">
+        <meta name="description" content="Soccer Youth club.">
+        <link rel="stylesheet" href="styles/nysl_3.css">
+    </head>
+    
+    <body>
+        
+        <nav>
+            <img id="disenouno" alt="kidrunning" src="img/soccerkid.jpeg">
+            <nav class="aboutitle">
+                <h3 id="sigl">Northside Youth Soccer League</h3>
+            </nav>
+            
+            <img id="logo" src="img/logo.png" alt="Club's logo">
+        </nav>
+        
+        <nav id="secondtitle"><p id="sectitle">Registration Form</p>
+        </nav>
+        
+        <nav class="links">
+            <h3 id="sublinkone"><a href="index.html">Home</a></h3>
+            <h3 id="sublinktwo"><a href="about.html">About NYSL</a></h3>
+            <h3 id="sublinkthree"><a href="contact.html">Contact</a></h3>
+            <h3 id="sublinkfour"><a href="gameinfo.html">Game Information</a></h3>
+            <h3 id="sublinkfive"><a href="rulespolicies.html">Rules and Policies</a></h3>
+        </nav>
+        
+        <div id="form">
+            <p></p>
+            <form action="show_data.html" method="get">
+	           <label>Player’s First Name:</label>
+	           <input type="text" name="First_name" placeholder="Enter here" value="" required>
+                <label>Last Name:</label>
+                <input type="text" name="Last_name" placeholder="Enter here" value="" required>
+                <p></p>
+                <label>Street Address:</label>
+                <input type="text" name="Address" placeholder="Enter here" value="" required>
+                <p></p>
+                <label>City:</label>
+                <input type="text" name="City" placeholder="Enter here" value="" required>
+                <label>Zip Code:</label>
+                <input type="number" name="Zip_Code" placeholder="Enter here">
+                <p></p>
+                <label>Birth Date (mm/dd/yyyy):</label>
+                <input type="date" name="Birth_Date" value="" required>
+                <label>Gender:</label>
+                <input type="radio" name="Gender" value="Male" checked>Male
+                <input type="radio" name="Gender" value="Female">Female<br>
+                <p></p>
+                <label>Grade:</label>
+                <input type="radio" name="Grade" value="Pre_school" checked>Pre-School
+                <input type="radio" name="Grade" value="First">1st
+                <input type="radio" name="Grade" value="Second">2nd
+                <input type="radio" name="Grade" value="Third">3rd
+                <input type="radio" name="Grade" value="Forth">4th
+                <input type="radio" name="Grade" value="Fifth">5th
+                <p></p>
+                <label>Parent/Guardian:</label>
+                <input type="text" name="Parent_Guardian" placeholder="Enter here">
+                <p></p>
+                <label>Contact Phone:</label>
+                <input type="number" name="Phone" placeholder="Enter here">
+	           <label>Contact Email:</label>
+	           <input type="email" name="Email" placeholder="@" value="" required>
+                <p></p>
+                
+                <p class="putblack">Which elementary schools do you live near?</p>
+                <label>First Closest School:</label>
+                <select name="First_closest_school">
+                <option value="AJ_Katzenmaier">AJ Katzenmaier</option>
+                <option value="Greenbay">Greenbay</option>
+                <option value="HowardAY">Howard A Yeager</option>
+                <option value="MarjoriePH">Marjorie P Hart</option>
+                <option value="NorthE">North Elementary</option>
+                <option value="SouthE">South Elementary</option>
+                </select>
+                
+                <label>Second Closest School:</label>
+                <select name="Second_closest_school">
+                <option value="AJ_Katzenmaier">AJ Katzenmaier</option>
+                <option value="Greenbay">Greenbay</option>
+                <option value="HowardAY">Howard A Yeager</option>
+                <option value="MarjoriePH">Marjorie P Hart</option>
+                <option value="NorthE">North Elementary</option>
+                <option value="SouthE">South Elementary</option>
+                </select>
+                
+                <p class="putblack">What position(s) do you normally play? (check all that apply)</p>
+                <input type="checkbox" name="Position_playing" value="Forward" checked>Forward
+                <input type="checkbox" name="Position_playing" value="Defense" >Defense
+                <input type="checkbox" name="Position_playing" value="Midfield" >Midfield
+                <input type="checkbox" name="Position_playing" value="Goalkeeper" >Goalkeeper
+                <p class="putblack">What position(s) do you want to play? (check all that apply)</p>
+                <input type="checkbox" name="Position_wanted" value="Forward" checked>Forward
+                <input type="checkbox" name="Position_wanted" value="Defense">Defense
+                <input type="checkbox" name="Position_wanted" value="Midfield">Midfield
+                <input type="checkbox" name="Position_wanted" value="Goalkeeper">Goalkeeper
+                <p></p>
+                <input type="radio" name="With_uniform" value="Already_uniform">Already Have a Uniform
+                <br>
+                <label>Jersey Size:</label>
+                <select name="Jersey_size">
+                <option value="None">None</option>
+                <option value="YouthSmall">Youth Small</option>
+                <option value="YouthMedium">Youth Medium</option>
+                <option value="YouthLarge">Youth Medium</option>
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+                <option value="Extra-Large">Extra-Large</option>
+                </select>
+                <label>Shorts Size:</label>
+                <select name="Shorts_size">
+                <option value="None">None</option>
+                <option value="YouthSmall">Youth Small</option>
+                <option value="YouthMedium">Youth Medium</option>
+                <option value="YouthLarge">Youth Medium</option>
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+                <option value="Extra-Large">Extra-Large</option>
+                </select>              
+                <p></p>
+                    <fieldset>
+                        <legend class="putblack">Permission to Play</legend>
+                        I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation.
+                        By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.
+                        <p></p>
+                        <label>Parent/Guardian Full Name:</label>
+                        <input type="text" name="Permission_Name" value="" required>
+                        <label>Date:</label>
+                        <input type="date" name="Permission_Date" value="" required>
+                    </fieldset>
+                    <p></p>
+	           <input type="submit" class="putblack" value="Click for submit!">
+
+	       </form>           
+        </div>       
+        <img src="img/arrow.gif" class="arrow" alt="redarrow">
+       
+       
+        

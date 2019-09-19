@@ -1,0 +1,284 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+p {
+  color: darkblue;
+  font-size: 15px;
+}
+
+#subt {
+    font-weight: bold;
+    margin-left: 210px;
+    background: aquamarine;
+    font-size: 21px;
+    border: 1px black ridge;
+}
+
+#signupone {
+    font-family: "trebuchet ms";
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+    float: left;
+    background: springgreen;
+    padding: 4px;
+    padding-right: 35px;
+    padding-left: 35px;
+    border: 3px yellow ridge;
+}
+
+#signuptwo {
+    font-family: "trebuchet ms";
+    font-size: 15px;
+    margin-top: -200px;
+    margin-left: 8px;
+    float: left;
+    background: springgreen;
+    padding: 2px;
+    padding-right: 35px;
+    padding-left: 35px;
+    border: 3px yellow ridge;
+}
+
+#signupthree {
+    font-family: "trebuchet ms";
+    font-size: 15px;
+    margin-top: 155px;
+    margin-left: -190px;
+    float: left;
+    background: springgreen;
+    padding: 2px;
+    padding-right: 35px;
+    padding-left: 35px;
+    border: 3px yellow ridge;
+}
+
+#info {
+    margin-left: 230px;
+    margin-right: 55px;
+    font-size: 20px;
+}
+
+#infocont {
+    margin-left: 230px;
+    margin-right: 55px;
+    font-size: 22px;
+}
+
+#compl {
+    width: 190px;
+    height: 240px;
+    margin-left: 9px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    float: left;
+    border: 2px darkgreen ridge;
+}
+
+#sublinkone {
+    font-family: "trebuchet ms";
+    margin-top: -450px;
+    margin-left: -980px;
+    float: left;
+    background: gold;
+    padding: 4px;
+    padding-right: 55px;
+    padding-left: 55px;
+    border: 3px darkgreen ridge;
+}
+
+#sublinktwo {
+    font-family: "trebuchet ms";
+    margin-top: -450px;
+    margin-left: -800px;
+    position: absolute;
+    float: right;
+    background: gold;
+    padding: 4px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border: 3px darkgreen ridge;
+}
+
+#sublinkthree {
+    font-family: "trebuchet ms";
+    margin-top: -450px;
+    margin-left: -600px;
+    position: absolute;
+    float: right;
+    background: gold;
+    padding: 4px;
+    padding-right: 45px;
+    padding-left: 45px;
+    border: 3px darkgreen ridge;
+}
+
+#sublinkfour {
+    font-family: "trebuchet ms";
+    margin-top: -450px;
+    margin-left: -425px;
+    position: absolute;
+    float: right;
+    background: gold;
+    padding: 4px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 3px darkgreen ridge;
+}
+
+#sublinkfive    {
+    font-family: "trebuchet ms";
+    margin-top: -450px;
+    margin-left: -210px;
+    position: absolute;
+    float: right;
+    background: gold;
+    padding: 4px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 3px darkgreen ridge;
+    }
+
+.links {
+    margin-top: 360px;
+    float: right;
+}
+
+#logo {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    margin-left: 750px;
+    margin-top: -325px;
+}
+
+.aboutitle {
+    background: navy;
+    margin-top:-668px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+#sigl {
+    font-family: "georgia";
+    font-size: 40px;
+    color: greenyellow;
+    margin-left: 180px;
+}
+
+
+#secondtitle {
+    background: green;
+    width: 990px;
+    height: 40px;
+    margin-top: 70px;
+}
+
+#sectitle {
+    font-family: "georgia";
+    color: aliceblue;
+    font-size: 27px;
+    margin-left: 370px;
+}
+
+#tabletitle {
+    font-size: 25px;
+}
+
+#ending {
+    font-size: 23px;
+}
+
+#disenouno {
+    width: 990px;
+    margin-top: 350px;
+    margin-left: -2px;
+    float: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+    }
+
+    th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+    text-align: center;
+    }
+
+    tr:nth-child(0){background-color: lightgoldenrodyellow;}
+    tr:nth-child(1){background-color: #f2f2f2}
+    tr:nth-child(2){background-color: lightgoldenrodyellow;}
+    tr:nth-child(3){background-color: #f2f2f2}
+    tr:nth-child(4){background-color: lightgoldenrodyellow;}
+    tr:nth-child(5){background-color: #f2f2f2}
+    tr:nth-child(6){background-color: lightgoldenrodyellow;}
+    tr:nth-child(7){background-color: #f2f2f2}
+    tr:nth-child(8){background-color: lightgoldenrodyellow;}
+    tr:nth-child(9){background-color: #f2f2f2}
+    tr:nth-child(10){background-color: lightgoldenrodyellow;}
+    tr:nth-child(11){background-color: #f2f2f2}
+    tr:nth-child(12){background-color: lightgoldenrodyellow;}
+    tr:nth-child(13){background-color: #f2f2f2}
+    tr:nth-child(14){background-color: lightgoldenrodyellow;}
+    tr:nth-child(15){background-color: #f2f2f2}
+    tr:nth-child(16){background-color: lightgoldenrodyellow;}
+    tr:nth-child(17){background-color: #f2f2f2}
+
+    th {
+    background-color: #4CAF50;
+    color: white;
+    }
+
+.putblack {
+    font-weight: bold;
+}
+
+#form {
+    text-align: center;
+    font-family: "georgia";
+}
+
+#mapstitle {
+    font-family: "georgia";
+    text-align: center;
+    background: #AFE354;
+    padding: 9px;
+}
+
+.upmap {
+    font-family: "georgia";
+    text-align: center;
+    margin-left: -130px;
+    margin-right: 20px;
+    background: #DAFD9B;
+    padding: 5px;
+}
+
+.arrow {
+    width: 100px;
+    height: 70px;
+    float: left;
+    margin-left: 320px;
+    margin-top: -45px;
+}
+
+.maps {
+    margin-left: 150px;
+}
+
+#firstable, #secondtable {
+    margin-top: 25px;
+}
+
+#lastmap, #thirdtable {
+    margin-bottom: 35px;
+}
+
+
+
+
